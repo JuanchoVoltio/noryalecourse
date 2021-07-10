@@ -8,10 +8,11 @@ public class Toby { //This is a class used to test another ones
 
         System.out.println("START -> Level " + myElevator.currentLevel + " | Door: " + myElevator.doorOpen);
         myElevator.openDoor();
-        //myElevator.closeDoor();
+        myElevator.closeDoor();
         myElevator.goUp();
-        //myElevator.goDown();
+        myElevator.goDown();
         System.out.println("FINISH: " + myElevator.currentLevel);
 
     }
 }
+
